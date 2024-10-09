@@ -1,0 +1,59 @@
+$background-color: #7E07A9;
+$gradient: linear-gradient(180deg, rgba(126, 7, 169, 1) 20%, rgba(103, 35, 127, 1) 40%, rgba(82, 2, 110, 1) 60%, rgba(172, 59, 212, 1) 80%, rgba(183, 100, 212, 1) 100%);
+$header-footer-color: #7E07A9; 
+$navigator-color: #67237F;
+$button-color: #52026E;
+$button-hover-color: #AC3BD4;
+$text-color: #ffffff;
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: $background-color;
+    background: $gradient;
+    color: $text-color;
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;    
+    background-color: $header-footer-color;
+    color: $text-color;
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: $navigator-color;
+}
+
+.main {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer__info {
+    text-align: center;
+    padding: 20px;
+    background-color: $header-footer-color;
+    margin: auto;
+}
+
+.navigator__button {
+    background-color: $button-color;
+    border: none;
+    padding: 10px 20px;
+    color: $text-color;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navigator__button:hover {
+    background-color: $button-hover-color;
+}
