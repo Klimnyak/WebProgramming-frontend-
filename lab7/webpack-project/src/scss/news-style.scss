@@ -1,0 +1,26 @@
+.news {
+    width: 1000px; 
+    margin: auto;  
+}
+
+.column-news {
+    display: flex; 
+    justify-content: space-between;  
+}
+
+.text {
+    padding: 10px;
+    text-align: justify;
+}
+
+.item-news {
+    flex: 0 1 calc(50% - 20px); 
+    margin: 10px; 
+    box-sizing: border-box;
+}
+.item-news img{
+    width: 475px;
+    height: 350px;
+    object-fit: cover;
+    padding-bottom: 10px;
+}

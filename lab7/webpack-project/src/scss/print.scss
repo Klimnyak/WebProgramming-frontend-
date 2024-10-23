@@ -1,0 +1,23 @@
+@media print {
+
+    .header, .footer__info, .navigator {
+        display: none;
+    }
+
+    
+    a::before {
+        content: attr(href);
+    }   
+
+    
+    body {
+        font-family: "Times New Roman", Georgia, Palatino, serif;
+        background: none !important;
+        color: black !important;
+    }
+   
+    @page {
+        margin: 50px;
+    }
+}
+

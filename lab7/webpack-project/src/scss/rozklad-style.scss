@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+button.zoom {
+    background-color: #178fff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;    
+}
+button.zoom:hover {
+    background-color: #6ecaff;
+}
+.day-row {
+    border-bottom: 2px solid #ffffff;
+}

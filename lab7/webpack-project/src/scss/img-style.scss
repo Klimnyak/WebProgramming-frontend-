@@ -1,0 +1,21 @@
+.gallery {
+    width: 1500px;
+    margin: auto;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caption {
+    text-align: center;
+}
+
+.item a img{
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+    padding: 10px;
+    
+}
